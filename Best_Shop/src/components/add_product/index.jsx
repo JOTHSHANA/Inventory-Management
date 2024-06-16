@@ -438,7 +438,7 @@ function AddStocks({ text }) {
     setSizeQuantities((prevQuantity) => ({
       ...prevQuantity,
       [sizeId]: value,
-    }));
+    }));  
   };
 
   const filterData = (data) => {
